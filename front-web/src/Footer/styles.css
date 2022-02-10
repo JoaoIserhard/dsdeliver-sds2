@@ -1,0 +1,22 @@
+.main-footer {
+  background-color: var(--dark-color);
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: normal;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-icons > * {
+  margin-right: 5px;
+}
