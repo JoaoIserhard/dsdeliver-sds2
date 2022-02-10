@@ -1,5 +1,5 @@
 .home-container {
-  height: calc(100vh - 254px);
+  height: calc(100vh-82px-70);
 }
 
 .home-container h1 {
@@ -52,12 +52,12 @@
 }
 
 .home-img svg {
-  width: 100% !important; 
+  width: fit-content; 
 }
 
 @media only screen and (max-width: 768px) {
   .home-container{
-    height: auto;
+    height: calc(100vh-82px-70);
     margin-bottom: 50px;
   }
 
@@ -85,13 +85,13 @@
   }
 
   .home-image svg {
-    width: 80%;
+    width: 100%;
   }
 }
 
 @media (max-height: 700px) {
   .home-container {
-    height: auto;
+    height: calc(100vh-82px-70);
     margin-bottom: 30px;
   }
 }

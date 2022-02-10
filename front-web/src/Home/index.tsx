@@ -1,6 +1,5 @@
 import './styles.css'
 import {ReactComponent as MainImage} from '../assets/img/main.svg'
-import Footer from '../Footer';
 
 function Home() {
   return (
@@ -21,7 +20,6 @@ function Home() {
         </div>
       </div>
     </div>
-    <Footer />
     </>
   )
 }

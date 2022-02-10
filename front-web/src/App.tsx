@@ -1,12 +1,14 @@
 import './App.css';
-import Home from './Home';
+import Footer from './Footer';
 import Navbar from './Navbar';
+import RoutePath from './Routes';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      <RoutePath />
+      <Footer />
     </>
   );
 }
